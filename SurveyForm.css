@@ -1,18 +1,17 @@
-
-.body{
-    background-color: gray;
-    float:left;
-    width:700px;
-    margin: 100;
-    border: coral;
-    align-content: center;
-    display: flex;
+.required:after{
+    content:"*";
+    color: red;
 }
-.radiobut 
-{
-    margin-left: 50px;
+label{
+    font-weight: bold;
 }
-
-input[type="radio"]{
-    margin: 0 10px 0 10px;
-  }
+.checked{
+    color:goldenrod;
+    cursor:pointer;
+}
+input{
+    cursor:pointer;
+}
+#comments{
+    display:flex;
+}
